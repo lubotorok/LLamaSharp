@@ -145,6 +145,8 @@ InferenceParams inferenceParams = new InferenceParams()
 {
     MaxTokens = 256, // No more than 256 tokens should appear in answer. Remove it if antiprompt is enough for control.
     AntiPrompts = new List<string> { "User:" } // Stop generation once antiprompts appear.
+
+    SamplingPipeline = new DefaultSamplingPipeline(),
 };
 
 Console.ForegroundColor = ConsoleColor.Yellow;
@@ -254,7 +256,10 @@ If you want to compile llama.cpp yourself you **must** use the exact commit ID l
 | v0.14.0 | Gemma2 | [`36864569`](https://github.com/ggerganov/llama.cpp/tree/368645698ab648e390dcd7c00a2bf60efa654f57) |
 | v0.15.0 | LLama3.1 | [`345c8c0c`](https://github.com/ggerganov/llama.cpp/tree/345c8c0c87a97c1595f9c8b14833d531c8c7d8df) |
 | v0.16.0 |  | [`11b84eb4`](https://github.com/ggerganov/llama.cpp/tree/11b84eb4578864827afcf956db5b571003f18180) |
+| v0.17.0 |  | [`c35e586e`](https://github.com/ggerganov/llama.cpp/tree/c35e586ea57221844442c65a1172498c54971cb0) |
+| v0.18.0 |  | [`c35e586e`](https://github.com/ggerganov/llama.cpp/tree/c35e586ea57221844442c65a1172498c54971cb0) |
 
 ## License
 
 This project is licensed under the terms of the MIT license.
+
