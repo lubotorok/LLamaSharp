@@ -22,7 +22,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageOutputPath>packages</PackageOutputPath>
     <Platforms>AnyCPU;x64;Arm64</Platforms>
-    <PackageId>LLamaSharp.kernel-memory</PackageId>
+    <PackageId>LLamaSharp.kernel-memory-lt</PackageId>
     <Configurations>Debug;Release;GPU</Configurations>
   </PropertyGroup>
 
